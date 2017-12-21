@@ -18,6 +18,16 @@
       <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
     </li>
     <li>
+      <a href="#portfolio" onclick = $("#menu-close").click(); >Blog</a>
+      <ul>
+        {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </li>
+    <li>
       <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
     </li>
   </ul>
