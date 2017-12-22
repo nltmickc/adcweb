@@ -13,17 +13,16 @@ owner: Agrippa Data Consulting
 email: info@agrippadataconsuling.com
 facebook_username:
 twitter_username:
-github_username:
+github_username: nltmickc
 address:
-  - line: The CHQ Building,
-  - line: Dublin 1,
+  - line: The CHQ Building
+  - line: Dublin 1
   - line: Ireland
-  # Feel free to add more lines here
 telephone:
 copyright:
 
 # API settings
-google_api_key: AIzaSyC8ZQzye5a5nIWtvs9fHuNPb-OYmHu2Z0c
+google_api_key: AIzaSyAOuKvxz8ZNOQOu_uq1QRB00ZP5SXf4S34
 
 # Build settings
 markdown: kramdown
